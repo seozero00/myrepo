@@ -1,0 +1,77 @@
+* {
+    font-family: 'Montserrat';
+}
+                         
+.aa {
+    margin-left: 120px;
+  }
+  
+.Button {
+    float: right;
+    margin-top: 8px;
+}
+
+.search {
+    width: 300px;
+    height: 100px;
+    float: right;
+    margin-top: 8px;
+  }
+
+  .search input {
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+  }
+  
+  .search button {
+    font-size: 18px;
+    border: none;
+    background-color: rgb(172, 197, 243);
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+  }
+  #wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 60px;
+  }
+  footer{
+    height: 0px;
+    position : relative;
+    transform : translateY(-100%);
+  }
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    background: hsl(203, 100%, 94%);
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    }
+    
+li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    }
+    
+li a:hover {
+    background: #333;
+    color: #fff;
+    }
+    
+li a.home {
+      background : #333;
+      color: #fff;
+    }
